@@ -41,7 +41,7 @@
 
 .primeiro {
     margin-top: 121px;
-    margin-left: 21px;
+    margin-left: 19px;
     font-family: "Righteous", sans-serif;
     font-weight: 400;
     font-size: 26px;
@@ -52,11 +52,31 @@
     display: flex;
     overflow-x: scroll;
     margin-top: 17px;
-    padding-left: 3px;
+    padding-left: 4px;
     padding-right: 19px;
     
 }
-.prato_frango {
+.frango {
+    width: 162px;
+    height: 206px;
+    background-color: white;
+    margin-left: 16px;
+    border-radius: 9px;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.churrasco {
+    width: 162px;
+    height: 206px;
+    background-color: white;
+    margin-left: 16px;
+    border-radius: 9px;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.calabresa {
     width: 162px;
     height: 206px;
     background-color: white;
@@ -73,7 +93,28 @@
     margin-left: 14px;
     margin-top: 18px;
 }
-.nome-prato {
+.nome-prato-frango {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+.nome-prato-churrasco {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+
+.nome-prato-calabresa {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -94,7 +135,7 @@
     line-height: 1.05;
 }
 
-.preco {
+.preco-prato-frango {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -102,8 +143,27 @@
     margin-top: 10px;
 
 }
-.segundo {
+
+.preco-prato-churrasco {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
     margin-top: 10px;
+
+}
+
+.preco-prato-calabresa {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.segundo {
+    margin-top: 27px;
     margin-left: 21px;
     font-family: "Righteous", sans-serif;
     font-weight: 400;
@@ -114,18 +174,50 @@
     display: flex;
     overflow-x: scroll;
     margin-top: 17px;
-    padding-left: 3px;
+    padding-left: 4px;
     padding-right: 19px;
 }
 
 .bebidas {
-    width: 172px;
-    height: 202px;
+    width: 162px;
+    height: 192px;
     background-color: white;
     margin-left: 16px;
     border-radius: 9px;
+    border: 5px solid white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.coca {
+    width: 162px;
+    height: 192px;
+    background-color: white;
+    margin-left: 16px;
+    border-radius: 9px;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.fanta {
+    width: 162px;
+    height: 192px;
+    background-color: white;
+    margin-left: 16px;
+    border-radius: 9px;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.suco {
+    width: 162px;
+    height: 192px;
+    background-color: white;
+    margin-left: 16px;
+    border-radius: 9px;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 .imagem_bebidas img {
     width: 144px;
     height: 87px;
@@ -133,7 +225,8 @@
     margin-left: 14px;
     margin-top: 18px;
 }
-.nome-bebidas {
+
+.nome-bebidas-coca {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -142,8 +235,56 @@
     color: #333333;
     padding-bottom: 5px;
 }
-.terceiro {
+
+.nome-bebidas-fanta {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+.nome-bebidas-suco {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+.preco-bebida-coca {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
     margin-top: 10px;
+
+}
+
+.preco-bebida-fanta {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.preco-bebida-suco {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.terceiro {
+    margin-top: 27px;
     margin-left: 21px; 
     font-family: "Righteous", sans-serif;
     font-weight: 400;
@@ -154,17 +295,41 @@
     display: flex;
     overflow-x: scroll;
     margin-top: 17px;
-    padding-left: 3px;
+    padding-left: 4px;
     padding-right: 19px;
 }
-.sobremesas{
-    width: 172px;
-    height: 197px;
+
+.pudim {
+    width: 162px;
+    height: 187px;
     background-color: white;
     margin-left: 16px;
     border-radius: 9px;
+    border: 5px solid white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.brownie{
+    width: 162px;
+    height: 187px;
+    background-color: white;
+    margin-left: 16px;
+    border-radius: 9px;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mouse{
+    width: 162px;
+    height: 187px;
+    background-color: white;
+    margin-left: 16px;
+    border-radius: 9px;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
 .imagem_sobremesas img {
     width: 144px;
     height: 87px;
@@ -172,7 +337,7 @@
     margin-left: 14px;
     margin-top: 18px;
 }
-.nome-sobremesas {
+.nome-sobremesa-pudim {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -181,6 +346,54 @@
     color: #333333;
     padding-bottom: 5px;
 }
+
+.nome-sobremesa-brownie {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+.nome-sobremesa-mouse {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+.preco-sobremesa-pudim {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.preco-sobremesa-brownie {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.preco-sobremesa-mouse {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
 .menu_inferior {
     width: 100vw;
     height: 92px;
@@ -192,7 +405,7 @@
     align-items: center;
     justify-content: center;
 }
-button {
+.botao_fechar{
     width: 364px;
     height: 61px;
     background-color: #CBCBCB;
@@ -201,15 +414,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-button h1 {
+.botao_fechar h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: white;
-    width: 200px;  
+    width: 200px;
 }
 
 .escondido { 
@@ -234,8 +446,83 @@ button h1 {
     height: 353px;
     background-color: #50D074;
     border-radius: 9px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.pedido h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 25px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.pedido p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.sobremesa_1 {
+    padding-bottom: 2px;
+    height: 28px;
+}
+
+.pedido h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.fundo_total {
+    width: 329px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    
+}
+
+.fundo_total a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #50D074;
+    text-decoration: none;
+}
+
+.cancelar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 333px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 4px;
+    cursor: pointer;
 }
 
 .selecionado {
     border-color: #32B72F;
+}
+
+.cor_botao {
+    background-color: #32B72F;
 }
